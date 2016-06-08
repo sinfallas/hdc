@@ -4,13 +4,22 @@
 set -eu
 LC_ALL=C
 if [[ "$EUID" != "0" ]]; then
-	echo -e "\e[00;31mERROR: must be root\e[00m"
+	echo -e "\e[00;31mERROR: debe ser root\e[00m"
 	exit 1
 fi
 trap "rm -f /run/$(basename $0).pid; exit" 0 1 2 3 15
 echo "$BASHPID" > /run/$(basename $0).pid
 
+name=$(hostname)
+mkdir -p /tmp/"$name"
+chmod 666 /tmp/"$name"
 
-echo -e "\e[00;1;92mFinished...\e[00m"
+lscpu > /tmp/"$name"/cpu.txt
+lspci > /tmp/"$name"/pci.txt
+lspcmcia  > /tmp/"$name"/pcmcia.txt
+lsusb > /tmp/"$name"/usb.txt
+hwinfo -all --listmd --log /tmp/"$name"/hwinfo.log
+
+echo -e "\e[00;1;92mFinalizado...\e[00m"
 rm -f /run/$(basename $0).pid
 exit 0
