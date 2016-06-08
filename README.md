@@ -1,0 +1,2 @@
+# hdc
+Hardware data collector
