@@ -1,4 +1,22 @@
-commit 643c36e09ccf69a778419732220d65a44bdd3cc8 (HEAD, origin/master, origin/HEAD, master)
+commit 1ec69d5b5c9d24d5d401b83368b3796ad65886c7 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 8 14:06:00 2016 -0400
+
+    * logo de licencia y archivo travis
+
+commit 9e2e7b7e1ab5118f1c9ece84f0d73852fc652459
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 8 14:04:17 2016 -0400
+
+    * primeros pasos
+
+commit 197fb9f2c5d3e108a68a4e12e95b2a4d4f9d0e0f
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 8 13:58:54 2016 -0400
+
+    * changelog
+
+commit 643c36e09ccf69a778419732220d65a44bdd3cc8
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Jun 8 13:58:06 2016 -0400
 
