@@ -14,12 +14,18 @@ name=$(hostname)
 mkdir -p /tmp/"$name"
 chmod 666 /tmp/"$name"
 
+free > /tmp/"$name"/ram.txt
+hwinfo -all --listmd --log /tmp/"$name"/hwinfo.log
 lscpu > /tmp/"$name"/cpu.txt
 lspci > /tmp/"$name"/pci.txt
 lspcmcia  > /tmp/"$name"/pcmcia.txt
 lsusb > /tmp/"$name"/usb.txt
-hwinfo -all --listmd --log /tmp/"$name"/hwinfo.log
 
+tar -czf /tmp/"$name".tar.gz /tmp/"$name"/
+rm -rf /tmp/"$name"/*
+rmdir /tmp/"$name"
+
+echo "Archivo /tmp/$name.tar.gz creado exitosamente"
 echo -e "\e[00;1;92mFinalizado...\e[00m"
 rm -f /run/$(basename $0).pid
 exit 0
