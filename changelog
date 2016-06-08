@@ -1,4 +1,40 @@
-commit 1ec69d5b5c9d24d5d401b83368b3796ad65886c7 (HEAD, origin/master, origin/HEAD, master)
+commit 113f81072e2e87888eab09619c91cd671e972cc9 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 8 14:35:26 2016 -0400
+
+    * bugfix
+
+commit 7df899eb940ebed99ff85ccce08038d295515a7d
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 8 14:34:55 2016 -0400
+
+    * finalizado
+
+commit 132f874c63031d4e26815b947ea630ce008c79a0
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 8 14:27:49 2016 -0400
+
+    * se recolecta la informacion necesaria
+
+commit 0760b78387bc85e4e052eb438e50326ec6045865
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 8 14:12:25 2016 -0400
+
+    * se activa zenodo
+
+commit 83fdd2cc5d2d7af6f41f6592a7b5b8759b531141
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 8 14:08:22 2016 -0400
+
+    * se activa travis ci
+
+commit 06051db5e5999f410a12bab57789d10100bbbd48
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 8 14:07:39 2016 -0400
+
+    * changelog
+
+commit 1ec69d5b5c9d24d5d401b83368b3796ad65886c7
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Jun 8 14:06:00 2016 -0400
 
