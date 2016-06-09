@@ -26,6 +26,7 @@ lspci > "$listo"/pci.txt
 lspcmcia  > "$listo"/pcmcia.txt
 lsusb > "$listo"/usb.txt
 
+chmod -R 666 "$listo"
 tar -czf /tmp/"$name".tar.gz "$listo"
 rm -rf "$listo"/*
 rmdir "$listo"
