@@ -9,6 +9,11 @@ fi
 trap "rm -f /run/$(basename $0).pid; exit" 0 1 2 3 15
 echo "$BASHPID" > /run/$(basename $0).pid
 
+if [[ -f /usr/sbin/hwinfo ]]; then
+	echo "El paquete hwinfo no esta instalado"
+	exit 1
+fi
+
 name=$(hostname)
 mkdir -p /tmp/"$name"
 listo=/tmp/"$name"
