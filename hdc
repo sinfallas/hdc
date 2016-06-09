@@ -11,20 +11,24 @@ echo "$BASHPID" > /run/$(basename $0).pid
 
 name=$(hostname)
 mkdir -p /tmp/"$name"
-chmod 666 /tmp/"$name"
+listo=/tmp/"$name"
+chmod 666 "$listo"
 
-free > /tmp/"$name"/ram.txt
-hwinfo -all --listmd --log /tmp/"$name"/hwinfo.log
-lscpu > /tmp/"$name"/cpu.txt
-lspci > /tmp/"$name"/pci.txt
-lspcmcia  > /tmp/"$name"/pcmcia.txt
-lsusb > /tmp/"$name"/usb.txt
+free > "$listo"/ram.txt
+hwinfo --all --listmd --log "$listo"/hwinfo.log
+lscpu > "$listo"/cpu.txt
+lspci > "$listo"/pci.txt
+lspcmcia  > "$listo"/pcmcia.txt
+lsusb > "$listo"/usb.txt
 
-tar -czf /tmp/"$name".tar.gz /tmp/"$name"/
-rm -rf /tmp/"$name"/*
-rmdir /tmp/"$name"
+tar -czf /tmp/"$name".tar.gz "$listo"
+rm -rf "$listo"/*
+rmdir "$listo"
 
-echo "Archivo /tmp/$name.tar.gz creado exitosamente"
+if [[ -f /tmp/$name.tar.gz ]]; then
+	echo "Archivo /tmp/$name.tar.gz creado exitosamente"
+fi
+
 echo -e "\e[00;1;92mFinalizado...\e[00m"
 rm -f /run/$(basename $0).pid
 exit 0
