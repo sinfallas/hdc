@@ -1,4 +1,16 @@
-commit fc6dbc242475b12e92bd3f84e4741db74b356bff (HEAD, origin/master, origin/HEAD, master)
+commit 92fa92ad2af3b9c01e848e9a91f6605d2ca369d9 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jun 9 13:42:55 2016 -0400
+
+    * se agrega una comprobacion para detectar hwinfo
+
+commit c5dfbba48b643a7f14ff4e77689f841c620c192f
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jun 9 12:07:11 2016 -0400
+
+    * changelog
+
+commit fc6dbc242475b12e92bd3f84e4741db74b356bff
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jun 9 12:06:57 2016 -0400
 
