@@ -1,4 +1,16 @@
-commit aeb8a936f3ce37af807244c312a013f007fd1922 (HEAD, origin/master, origin/HEAD, master)
+commit 99ed6878502c2a87fecda5a9eb0d87ed8117c47b (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jun 9 13:54:40 2016 -0400
+
+    * se cambian los permisos de los archivos generados
+
+commit 04dd4c26ff5af18e95c6a0c6ccd915f6163c39ee
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jun 9 13:48:51 2016 -0400
+
+    * changelog
+
+commit aeb8a936f3ce37af807244c312a013f007fd1922
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jun 9 13:48:43 2016 -0400
 
