@@ -11,8 +11,13 @@ echo "$BASHPID" > /run/$(basename $0).pid
 
 case "$1" in
 	instalar)
-		apt-get -q update
-		apt-get -y install hwinfo pciutils pcmciautils usbutils
+		if [[ -f /usr/sbin/hwinfo ]]; then
+			echo "La instalacion ya se ha ejecutado"
+			exit 0
+		else
+			apt-get -q update
+			apt-get -y install hwinfo pciutils pcmciautils usbutils
+		fi
 		;;	
 
 	buscar)
