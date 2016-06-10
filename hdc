@@ -9,32 +9,42 @@ fi
 trap "rm -f /run/$(basename $0).pid; exit" 0 1 2 3 15
 echo "$BASHPID" > /run/$(basename $0).pid
 
-if ! [[ -f /usr/sbin/hwinfo ]]; then
-	echo "El paquete hwinfo no esta instalado"
-	exit 1
-fi
+case "$1" in
+	instalar)
+		apt-get -q update
+		apt-get -y install hwinfo pciutils pcmciautils usbutils
+		;;	
 
-name=$(hostname)
-mkdir -p /tmp/"$name"
-listo=/tmp/"$name"
-chmod 666 "$listo"
+	buscar)
+		if ! [[ -f /usr/sbin/hwinfo ]]; then
+			echo "El paquete hwinfo no esta instalado, debe ejecutar la instalacion."
+			exit 1
+		fi
+		name=$(hostname)
+		mkdir -p /tmp/"$name"
+		listo=/tmp/"$name"
+		chmod 666 "$listo"
+		free > "$listo"/ram.txt
+		hwinfo --all --listmd --log "$listo"/hwinfo.log
+		lscpu > "$listo"/cpu.txt
+		lspci > "$listo"/pci.txt
+		lspcmcia  > "$listo"/pcmcia.txt
+		lsusb > "$listo"/usb.txt
+		chmod -R 666 "$listo"
+		tar -czf /tmp/"$name".tar.gz "$listo"
+		rm -rf "$listo"/*
+		rmdir "$listo"
+		if [[ -f /tmp/$name.tar.gz ]]; then
+			echo "Archivo /tmp/$name.tar.gz creado exitosamente"
+		fi
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
+		;;
 
-free > "$listo"/ram.txt
-hwinfo --all --listmd --log "$listo"/hwinfo.log
-lscpu > "$listo"/cpu.txt
-lspci > "$listo"/pci.txt
-lspcmcia  > "$listo"/pcmcia.txt
-lsusb > "$listo"/usb.txt
+	*)
+		echo "uso: $(basename $0) {instalar|buscar}"
+		;;
 
-chmod -R 666 "$listo"
-tar -czf /tmp/"$name".tar.gz "$listo"
-rm -rf "$listo"/*
-rmdir "$listo"
+esac
 
-if [[ -f /tmp/$name.tar.gz ]]; then
-	echo "Archivo /tmp/$name.tar.gz creado exitosamente"
-fi
-
-echo -e "\e[00;1;92mFinalizado...\e[00m"
 rm -f /run/$(basename $0).pid
 exit 0
