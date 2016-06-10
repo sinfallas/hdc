@@ -1,4 +1,16 @@
-commit 99ed6878502c2a87fecda5a9eb0d87ed8117c47b (HEAD, origin/master, origin/HEAD, master)
+commit 62982de1bb34da81c18d6d958af28caedd3905ee (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jun 9 20:14:42 2016 -0400
+
+    * se adapta el script para ser mas portable
+
+commit cbb6e813c9af1c4a4e4cbd586498c872a337cacc
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jun 9 13:55:01 2016 -0400
+
+    * changelog
+
+commit 99ed6878502c2a87fecda5a9eb0d87ed8117c47b
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jun 9 13:54:40 2016 -0400
 
