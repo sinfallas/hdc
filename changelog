@@ -1,4 +1,16 @@
-commit 62982de1bb34da81c18d6d958af28caedd3905ee (HEAD, origin/master, origin/HEAD, master)
+commit 3e2be5603ee9f819fb7d1588a1636b4737a4fb08 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jun 9 20:19:27 2016 -0400
+
+    * se coloca una comprobacion de instalacion
+
+commit bc83ba42f0b556fce3da5f9567908288b9667069
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jun 9 20:15:05 2016 -0400
+
+    * changelog
+
+commit 62982de1bb34da81c18d6d958af28caedd3905ee
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jun 9 20:14:42 2016 -0400
 
