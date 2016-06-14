@@ -1,4 +1,16 @@
-commit 3e2be5603ee9f819fb7d1588a1636b4737a4fb08 (HEAD, origin/master, origin/HEAD, master)
+commit cfbe3d8d48bfeadeb249fc76b367a3f4df0e795a (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Jun 13 20:03:05 2016 -0400
+
+    * se agrega lshw
+
+commit 4c00b4691413019e7c94d5307dd24e9c3e504ae4
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jun 9 20:19:51 2016 -0400
+
+    * changelog
+
+commit 3e2be5603ee9f819fb7d1588a1636b4737a4fb08
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jun 9 20:19:27 2016 -0400
 
