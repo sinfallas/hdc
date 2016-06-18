@@ -1,4 +1,16 @@
-commit cfbe3d8d48bfeadeb249fc76b367a3f4df0e795a (HEAD, origin/master, origin/HEAD, master)
+commit 813dbdaf2b5eab86096ca11fd615f793844ed3da (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Jun 18 11:15:45 2016 -0400
+
+    * se agrega dmidecode
+
+commit cef47c7dabb5a478a4aaacbc5b752ed504966cac
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Jun 13 20:03:39 2016 -0400
+
+    * changelog
+
+commit cfbe3d8d48bfeadeb249fc76b367a3f4df0e795a
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Jun 13 20:03:05 2016 -0400
 
