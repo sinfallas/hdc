@@ -29,6 +29,7 @@ case "$1" in
 		mkdir -p /tmp/"$name"
 		listo=/tmp/"$name"
 		chmod 666 "$listo"
+		dmidecode > "$listo"/dmidecode.txt
 		free > "$listo"/ram.txt
 		hwinfo --all --listmd --log "$listo"/hwinfo.log
 		lscpu > "$listo"/cpu.txt
