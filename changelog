@@ -1,4 +1,16 @@
-commit 813dbdaf2b5eab86096ca11fd615f793844ed3da (HEAD, origin/master, origin/HEAD, master)
+commit 1d0096211cbbfb99019376718bbfd791cc91baf5 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Jul 17 17:17:27 2016 -0400
+
+    * se elimina la comprobacion de instalacion
+
+commit ab15bb29bf8884e758269a039ae3981f011e4f69
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Jun 18 11:16:11 2016 -0400
+
+    * changelog
+
+commit 813dbdaf2b5eab86096ca11fd615f793844ed3da
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Jun 18 11:15:45 2016 -0400
 
