@@ -5,3 +5,4 @@
 [![Build Status](https://travis-ci.org/sinfallas/hdc.svg?branch=master)](https://travis-ci.org/sinfallas/hdc)
 
 Hardware data collector
+Script para recolectar informacion sobre el Hardware
