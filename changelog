@@ -1,4 +1,16 @@
-commit 9f9cae0a4fa63692f5c0b26d75a16703f58daadf (HEAD, origin/master, origin/HEAD, master)
+commit 01ca424e4e7cdd649aaf5819b1efb0b443f05c27 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Nov 22 21:57:27 2017 -0400
+
+    * se eliminan archivos antes de iniciar
+
+commit c2f8c35e0a89c4cb2ce007e8b457b488cefc7ead
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Nov 22 21:53:38 2017 -0400
+
+    * changelog
+
+commit 9f9cae0a4fa63692f5c0b26d75a16703f58daadf
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Nov 22 21:52:38 2017 -0400
 
