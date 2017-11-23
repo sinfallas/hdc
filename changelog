@@ -1,10 +1,36 @@
-commit 1d0096211cbbfb99019376718bbfd791cc91baf5 (HEAD, origin/master, origin/HEAD, master)
+commit 9f9cae0a4fa63692f5c0b26d75a16703f58daadf (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Nov 22 21:52:38 2017 -0400
+
+    * se organizan las variables
+    * se realiza una limpieza antes de iniciar
+    * se coloca una verificacion de instalacion usando dpkg
+
+commit 5412502ebdaa5efb2ace081ffb17062c6c1c0289
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Sat Feb 11 10:49:25 2017 -0400
+
+    Update README.md
+
+commit 29b9632ef818ef902c6f393888bdb69ad03cf47f
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Sat Feb 11 10:43:09 2017 -0400
+
+    Update README.md
+
+commit e68610b48908e14405a02bdf78a1ec6f84111e74 (tag: v1.2)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Jul 17 17:17:46 2016 -0400
+
+    * changelog
+
+commit 1d0096211cbbfb99019376718bbfd791cc91baf5
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Jul 17 17:17:27 2016 -0400
 
     * se elimina la comprobacion de instalacion
 
-commit ab15bb29bf8884e758269a039ae3981f011e4f69
+commit ab15bb29bf8884e758269a039ae3981f011e4f69 (tag: v1.1)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Jun 18 11:16:11 2016 -0400
 
@@ -40,7 +66,7 @@ Date:   Thu Jun 9 20:19:27 2016 -0400
 
     * se coloca una comprobacion de instalacion
 
-commit bc83ba42f0b556fce3da5f9567908288b9667069
+commit bc83ba42f0b556fce3da5f9567908288b9667069 (tag: v1.0)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jun 9 20:15:05 2016 -0400
 
@@ -52,7 +78,7 @@ Date:   Thu Jun 9 20:14:42 2016 -0400
 
     * se adapta el script para ser mas portable
 
-commit cbb6e813c9af1c4a4e4cbd586498c872a337cacc
+commit cbb6e813c9af1c4a4e4cbd586498c872a337cacc (tag: v0.3)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jun 9 13:55:01 2016 -0400
 
@@ -100,7 +126,7 @@ Date:   Thu Jun 9 12:06:57 2016 -0400
 
     * bugfix
 
-commit af5a695d4ce087a9cb245de6c0a66b7e638e7bbd
+commit af5a695d4ce087a9cb245de6c0a66b7e638e7bbd (tag: v0.2.1)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Jun 9 12:00:22 2016 -0400
 
@@ -113,7 +139,7 @@ Date:   Thu Jun 9 11:59:40 2016 -0400
     * cambios en variables
     * correccion de parametros en tar
 
-commit ea6ca5c8295f7dac09689970242db485bdceb312
+commit ea6ca5c8295f7dac09689970242db485bdceb312 (tag: v0.2)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Jun 8 14:35:36 2016 -0400
 
@@ -143,7 +169,7 @@ Date:   Wed Jun 8 14:12:25 2016 -0400
 
     * se activa zenodo
 
-commit 83fdd2cc5d2d7af6f41f6592a7b5b8759b531141
+commit 83fdd2cc5d2d7af6f41f6592a7b5b8759b531141 (tag: v0.1)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Jun 8 14:08:22 2016 -0400
 
