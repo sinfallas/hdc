@@ -8,6 +8,9 @@ if [[ "$EUID" != "0" ]]; then
 fi
 trap "rm -f /run/$(basename $0).pid; exit" 0 1 2 3 15
 echo "$BASHPID" > /run/$(basename $0).pid
+name=$(hostname)
+listo=/tmp/"$name"
+rm -f /tmp/$name.tar.gz
 
 case "$1" in
 	instalar)
@@ -16,13 +19,11 @@ case "$1" in
 		;;	
 
 	buscar)
-		if ! [[ -f /usr/sbin/hwinfo ]]; then
+		if ! [[ -f /usr/sbin/hwinfo ]] || [[ $(dpkg --get-selections | grep -w "hwinfo" | awk '{print $1}' | head -1) != hwinfo ]]; then
 			echo "El paquete hwinfo no esta instalado, debe ejecutar la instalacion."
 			exit 1
 		fi
-		name=$(hostname)
 		mkdir -p /tmp/"$name"
-		listo=/tmp/"$name"
 		chmod 666 "$listo"
 		dmidecode > "$listo"/dmidecode.txt
 		free > "$listo"/ram.txt
