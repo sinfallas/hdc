@@ -40,8 +40,10 @@ case "$1" in
 		rmdir "$listo"
 		if [[ -f /tmp/$name.tar.gz ]]; then
 			echo "Archivo /tmp/$name.tar.gz creado exitosamente"
+		else
+			echo "La creacion del archivo /tmp/$name.tar.gz no se completo"
 		fi
-		echo -e "\e[00;1;92mFinalizado...\e[00m"
+		echo "Finalizado..."
 		;;
 
 	*)
