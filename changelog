@@ -1,4 +1,16 @@
-commit 01ca424e4e7cdd649aaf5819b1efb0b443f05c27 (HEAD, origin/master, origin/HEAD, master)
+commit a19265860e65f778e0e50f15faa9cd4477bb2e5c (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Nov 27 10:08:42 2017 -0400
+
+    * se coloca un mensaje de error
+
+commit 1344836925fd77468cb0f364e7535c8f52ef415b
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Nov 22 21:57:49 2017 -0400
+
+    * changelog
+
+commit 01ca424e4e7cdd649aaf5819b1efb0b443f05c27
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Nov 22 21:57:27 2017 -0400
 
