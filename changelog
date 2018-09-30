@@ -1,4 +1,10 @@
-commit a19265860e65f778e0e50f15faa9cd4477bb2e5c (HEAD -> master, origin/master, origin/HEAD)
+commit 38873f9e899923da0359dcd1b352f5afade83917 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Mar 10 14:22:43 2018 -0400
+
+    * changelog
+
+commit a19265860e65f778e0e50f15faa9cd4477bb2e5c
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Nov 27 10:08:42 2017 -0400
 
